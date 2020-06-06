@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+    <ImageView
+        android:id="@+id/pict"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        app:layout_constraintTop_creator="1"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/splash"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Energy Monitoring"
+        app:layout_constraintBottom_toBottomOf="@id/pict"
+        android:layout_marginBottom="150dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        android:fontFamily="@font/roboto_italic"
+        app:layout_constraintRight_creator="1"
+        app:layout_constraintBottom_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_mediumitalic"
+                    android:text="Good Morning"
+                    android:textColor="#ffff"
+                    android:textSize="18dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/cloud" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Home Energy Monitoring"
+                    android:textColor="#ffff"
+                    android:textSize="24dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="21 C"
+                        android:textColor="#ffff"
+                        android:textSize="18dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sun"
+                        android:textColor="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="20 "
+                        android:textColor="#ffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mon"
+                        android:textColor="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="20 "
+                        android:textColor="#ffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tue"
+                        android:textColor="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="20 "
+                        android:textColor="#ffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wed"
+                        android:textColor="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="20 "
+                        android:textColor="#ffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thu"
+                        android:textColor="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="20 "
+                        android:textColor="#ffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fri"
+                        android:textColor="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="20  "
+                        android:textColor="#ffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mil"
+                        android:textColor="#ffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Watt"
+                        android:textColor="#ffff"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Choose Your Energy Controlling"
+            android:textColor="#5E5E5E"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:background="#7a8b8b8b"></View>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Lamp"
+                    android:textColor="#5E5E5E"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/lamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/lamp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Air Conditioner"
+                    android:textColor="#5E5E5E"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/airconditioner" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Television"
+                    android:textColor="#5E5E5E"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/television" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Fan"
+                    android:textColor="#5E5E5E"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/fan" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Microwave"
+                    android:textColor="#5E5E5E"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/microwave" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Call Center"
+                    android:textColor="#5E5E5E"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/call" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
